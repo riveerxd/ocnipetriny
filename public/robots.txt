@@ -1,0 +1,22 @@
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://www.ocnipetriny.cz/sitemap.xml
+
+# Block access to admin or private areas (if any in future)
+# Disallow: /admin/
+# Disallow: /private/
+
+# Crawl-delay for respectful crawling
+Crawl-delay: 1
+
+# Additional search engine directives
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Seznambot
+Allow: /
