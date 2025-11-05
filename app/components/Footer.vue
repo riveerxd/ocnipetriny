@@ -12,33 +12,13 @@
         <!-- Left: Logo and Description -->
         <div class="space-y-6 text-center md:text-left">
           <a href="#hero" class="inline-flex items-center gap-3 group">
-            <!-- Eye Icon -->
+            <!-- Logo Image -->
             <div class="relative">
-              <svg 
-                class="w-10 h-10 text-[#60AA06] transform group-hover:scale-110 transition-all duration-300" 
-                fill="none" 
-                stroke="currentColor" 
-                viewBox="0 0 24 24"
-              >
-                <path 
-                  stroke-linecap="round" 
-                  stroke-linejoin="round" 
-                  stroke-width="1.5" 
-                  d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
-                />
-                <path 
-                  stroke-linecap="round" 
-                  stroke-linejoin="round" 
-                  stroke-width="1.5" 
-                  d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"
-                />
-              </svg>
-            </div>
-
-            <!-- Oční Petřiny Text -->
-            <div class="flex items-center gap-2">
-              <span class="text-2xl font-black text-gray-900">Oční</span>
-              <span class="text-2xl font-black text-[#60AA06]">Petřiny</span>
+              <img 
+                src="/images/logo.png" 
+                alt="Oční Petřiny Logo" 
+                class="h-10 w-auto transform group-hover:scale-110 transition-all duration-300"
+              />
             </div>
           </a>
           

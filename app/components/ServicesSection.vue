@@ -52,7 +52,7 @@ const categories: ServiceCategory[] = [
       </div>
       
       <h2 class="text-5xl md:text-6xl font-black mb-6 text-gray-900 tracking-tight">
-        Naše služby
+        Ceník
       </h2>
       
       <p class="text-xl text-gray-700 font-medium max-w-2xl mx-auto">
@@ -120,18 +120,25 @@ const categories: ServiceCategory[] = [
       </div>
     </div>
 
-    <!-- Info Note -->
-    <div class="mt-12 p-6 rounded-2xl bg-gradient-to-br from-[#60AA06]/10 to-[#60AA06]/5 border border-[#60AA06]/20">
-      <div class="flex items-start gap-3">
-        <svg class="w-6 h-6 text-[#60AA06] flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
-          <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clip-rule="evenodd"/>
-        </svg>
-        <div>
-          <h4 class="font-bold text-gray-900 mb-2">Informace o cenách</h4>
-          <p class="text-sm text-gray-700 font-medium leading-relaxed">
-            Uvedené ceny jsou orientační. Přesnou cenu vám sdělíme po vyšetření. Pro více informací nás kontaktujte telefonicky nebo e-mailem.
-          </p>
+    <!-- Insurance Notice -->
+    <div class="mt-16">
+      <div class="bg-gradient-to-r from-[#60AA06]/10 to-[#60AA06]/5 rounded-3xl border-2 border-[#60AA06]/20 p-8 backdrop-blur-md text-center">
+        <div class="flex items-center justify-center gap-3 mb-4">
+          <div class="p-3 bg-[#60AA06]/20 rounded-xl">
+            <svg class="w-8 h-8 text-[#60AA06]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+            </svg>
+          </div>
+          <h3 class="text-2xl font-black text-gray-900">
+            Spolupracujeme se všemi pojišťovnami
+          </h3>
         </div>
+        <p class="text-xl font-bold text-[#60AA06] mb-2">
+          Vše zdarma!!
+        </p>
+        <p class="text-gray-700 font-medium max-w-2xl mx-auto">
+          Standardní oftalmologická vyšetření jsou plně hrazena zdravotními pojišťovnami
+        </p>
       </div>
     </div>
 

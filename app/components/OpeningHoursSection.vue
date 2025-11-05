@@ -43,9 +43,9 @@ const openingHours: OpeningHours[] = [
     <div class="grid lg:grid-cols-2 gap-8 items-stretch">
       <!-- Left Column: Opening Hours -->
       <div
-        class="bg-white/90 backdrop-blur-md rounded-3xl border-2 border-[#60AA06]/20 shadow-xl p-8 hover:shadow-2xl hover:scale-[1.02] transition-all duration-300"
+        class="bg-white/90 backdrop-blur-md rounded-3xl border-2 border-[#60AA06]/20 shadow-xl p-6 hover:shadow-2xl hover:scale-[1.02] transition-all duration-300 h-full flex flex-col"
       >
-        <div class="flex items-center gap-3 mb-8">
+        <div class="flex items-center gap-3 mb-6">
           <div class="p-3 bg-[#60AA06]/10 rounded-xl">
             <svg
               class="w-8 h-8 text-[#60AA06]"
@@ -62,7 +62,7 @@ const openingHours: OpeningHours[] = [
           <h3 class="text-3xl font-black text-gray-900">Otevírací doba</h3>
         </div>
 
-        <div class="space-y-3">
+        <div class="space-y-3 flex-1">
           <div
             v-for="schedule in openingHours"
             :key="schedule.day"
@@ -80,9 +80,9 @@ const openingHours: OpeningHours[] = [
 
       <!-- Right Column: Map -->
       <div
-        class="bg-white/90 backdrop-blur-md rounded-3xl border-2 border-[#60AA06]/20 shadow-xl overflow-hidden hover:shadow-2xl hover:scale-[1.02] transition-all duration-300"
+        class="bg-white/90 backdrop-blur-md rounded-3xl border-2 border-[#60AA06]/20 shadow-xl overflow-hidden hover:shadow-2xl hover:scale-[1.02] transition-all duration-300 h-full flex flex-col"
       >
-        <div class="p-8 border-b border-[#60AA06]/10">
+        <div class="p-6 border-b border-[#60AA06]/10">
           <div class="flex items-center gap-3">
             <div class="p-3 bg-[#60AA06]/10 rounded-xl">
               <svg
@@ -97,27 +97,28 @@ const openingHours: OpeningHours[] = [
                 />
               </svg>
             </div>
-            <h3 class="text-3xl font-black text-gray-900">Kde nás najdete</h3>
+            <div class="flex flex-col gap-2">
+              <h3 class="text-3xl font-black text-gray-900">Kde nás najdete</h3>
+              <p class="text-gray-700 font-semibold text-sm">Stamicova 21, 142 00 Praha 12</p>
+            </div>
           </div>
         </div>
 
-        <div class="relative">
-          
-          <div class="relative">
-            <iframe
-              width="100%"
-              height="500"
-              frameborder="0"
-              scrolling="no"
-              marginheight="0"
-              marginwidth="0"
-              src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Stamicova%2021+(O%C4%8Dn%C3%AD%20Pet%C5%99iny)&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
-              ><a
-                href="https://www.mapsdirections.info/it/calcola-la-popolazione-su-una-mappa/"
-                >popolazione per regione Italia mappa</a
-              ></iframe
-            >
-          </div>
+        <div class="relative flex-1">
+          <iframe
+            width="100%"
+            height="100%"
+            frameborder="0"
+            scrolling="no"
+            marginheight="0"
+            marginwidth="0"
+            src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=50.0894524,14.3578435+(O%C4%8Dn%C3%AD%20Pet%C5%99iny)&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+            class="rounded-b-3xl"
+            ><a
+              href="https://www.mapsdirections.info/it/calcola-la-popolazione-su-una-mappa/"
+              >popolazione comuni Italia mappa interattiva</a
+            ></iframe
+          >
         </div>
       </div>
     </div>

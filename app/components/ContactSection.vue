@@ -21,8 +21,8 @@ const contactInfo = ref<ContactInfo[]>([
   {
     icon: '📞',
     label: 'Telefon',
-    value: '+420 703 622 644',
-    href: 'tel:+420703622644'
+    value: '+420 734 554 553',
+    href: 'tel:+420734554553'
   },
   {
     icon: '✉️',

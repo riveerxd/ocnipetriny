@@ -12,7 +12,7 @@ export interface HeroSectionProps {
 const props = withDefaults(defineProps<HeroSectionProps>(), {
   clinicName: 'Oční Petřiny',
   slogan: 'Moderní péče o váš zrak s lidským přístupem',
-  phone: '+420 233 018 277',
+  phone: '+420 734 554 553',
   email: 'sestra@ocnipetriny.cz'
 })
 
@@ -54,39 +54,9 @@ onMounted(() => {
             mounted ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
           ]"
         >
-          <!-- Eye Icon SVG - Custom designed -->
-          <div class="flex justify-center mb-8">
-            <div class="relative group">
-              <!-- Outer glow effect -->
-              <div class="absolute inset-0 bg-[#60AA06]/20 rounded-full blur-2xl scale-150 group-hover:scale-175 transition-transform duration-700"></div>
-              
-              <!-- Eye SVG Icon -->
-              <svg 
-                class="w-24 h-24 relative z-10 text-[#60AA06] transform group-hover:scale-110 transition-all duration-500" 
-                fill="none" 
-                stroke="currentColor" 
-                viewBox="0 0 24 24"
-              >
-                <path 
-                  stroke-linecap="round" 
-                  stroke-linejoin="round" 
-                  stroke-width="1.5" 
-                  d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
-                />
-                <path 
-                  stroke-linecap="round" 
-                  stroke-linejoin="round" 
-                  stroke-width="1.5" 
-                  d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"
-                />
-              </svg>
-            </div>
-          </div>
-
           <!-- Clinic Name -->
           <h1 class="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-black text-gray-900 tracking-tight leading-none">
-            <span class="block">Oční</span>
-            <span class="block text-[#60AA06] mt-2">Petřiny</span>
+            <span>Oční </span><span class="text-[#60AA06]">Petřiny</span>
           </h1>
 
           <!-- Slogan -->

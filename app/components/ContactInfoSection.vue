@@ -38,7 +38,7 @@
 
           <div class="space-y-4">
             <!-- Phone Card -->
-            <a href="tel:+420233018277" class="flex items-center gap-4 p-5 rounded-xl bg-white/70 border border-[#60AA06]/10 hover:border-[#60AA06] hover:bg-white transition-all duration-200 group">
+            <a href="tel:+420734554553" class="flex items-center gap-4 p-5 rounded-xl bg-white/70 border border-[#60AA06]/10 hover:border-[#60AA06] hover:bg-white transition-all duration-200 group">
               <div class="p-3 bg-[#60AA06]/10 rounded-lg group-hover:bg-[#60AA06]/20 transition-colors">
                 <svg class="w-6 h-6 text-[#60AA06]" fill="currentColor" viewBox="0 0 20 20">
                   <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/>
@@ -46,7 +46,7 @@
               </div>
               <div>
                 <p class="text-xs font-semibold text-gray-500 uppercase tracking-wide mb-1">Telefon</p>
-                <p class="text-xl font-bold text-gray-900">+420 233 018 277</p>
+                <p class="text-xl font-bold text-gray-900">+420 734 554 553</p>
               </div>
             </a>
 
