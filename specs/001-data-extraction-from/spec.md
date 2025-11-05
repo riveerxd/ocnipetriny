@@ -76,7 +76,7 @@ As a developer working on the NClinic.cz remake, I need to extract all content f
 
 - **FR-002**: System MUST preserve the hierarchical structure of content (main sections, subsections, list items)
 
-- **FR-003**: System MUST capture all company information including phone number (+420 703 622 644), email (sestra@nclinic.cz), physical address (Zárubova 498/31, Prague 12), business hours (Monday-Friday, 8:00-12:00 and 12:30-16:00), and ICO (Czech company identification number)
+- **FR-003**: System MUST capture all company information including phone number (+420 734 554 553), email (sestra@nclinic.cz), physical address (Zárubova 498/31, Prague 12), business hours (Monday-Friday, 8:00-12:00 and 12:30-16:00), and ICO (Czech company identification number)
 
 - **FR-004**: System MUST extract all service descriptions including:
   - Preventive Care (check-ups, cleaning, fluoride, hygiene instructions)

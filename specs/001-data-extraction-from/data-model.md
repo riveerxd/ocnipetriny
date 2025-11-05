@@ -49,7 +49,7 @@ Represents clinic contact and company details.
 - All fields preserve UTF-8 Czech characters
 
 **Expected Values** (from spec):
-- Phone: +420 703 622 644
+- Phone: +420 734 554 553
 - Email: sestra@nclinic.cz
 - Address: Zárubova 498/31, Prague 12
 - Hours: Monday-Friday, 8:00-12:00 and 12:30-16:00
@@ -58,7 +58,7 @@ Represents clinic contact and company details.
 ```markdown
 ## Company Information
 
-**Phone**: +420 703 622 644
+**Phone**: +420 734 554 553
 **Email**: sestra@nclinic.cz
 **Address**: Zárubova 498/31, Prague 12
 **ICO**: [extracted value]

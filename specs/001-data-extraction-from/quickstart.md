@@ -71,7 +71,7 @@ head -5 data/extracted-content.md
 ### 3. Company Information Extracted
 
 **Expected Fields**:
-- Phone: +420 703 622 644
+- Phone: +420 734 554 553
 - Email: sestra@nclinic.cz
 - Address: Zárubova 498/31, Prague 12
 - ICO: [some value]

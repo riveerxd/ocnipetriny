@@ -84,7 +84,7 @@ fs.writeFileSync('data/extracted-content.md', content, { encoding: 'utf8' });
 
 ## Company Information
 
-**Phone**: +420 703 622 644
+**Phone**: +420 734 554 553
 **Email**: sestra@nclinic.cz
 **Address**: Zárubova 498/31, Prague 12
 **ICO**: [extracted value]
