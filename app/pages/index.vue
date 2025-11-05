@@ -3,7 +3,7 @@
 const clinicData = {
   name: 'Oční Petriny',
   slogan: 'Moderní péče o váš zrak s lidským přístupem',
-  phone: '+420 233 018 277',
+  phone: '+420 734 554 553',
   email: 'sestra@ocnipetriny.cz'
 }
 </script>
@@ -19,6 +19,8 @@ const clinicData = {
     <OpeningHoursSection />
     <ContactInfoSection />
     <TeamSection />
+    <ProceduresSection />
+    <TechnologySection />
     <ServicesSection />
   </div>
 </template> 
