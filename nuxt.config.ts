@@ -433,6 +433,12 @@ export default {
     quality: 80
   },
 
+  // Site config for SEO modules
+  site: {
+    url: 'https://www.ocnipetriny.cz',
+    name: 'Oční Petřiny'
+  },
+
   // Runtime config for environment variables
   runtimeConfig: {
     public: {
