@@ -10,10 +10,12 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@nuxtjs/seo": "^2.2.0",
     "axios": "^1.12.2",
     "axios-retry": "^4.5.0",
     "cheerio": "^1.1.2",
     "nuxt": "^4.0.3",
+    "nuxt-og-image": "^5.1.12",
     "vue": "^3.5.18",
     "vue-router": "^4.5.1",
     "vue-scrollto": "^2.20.0",

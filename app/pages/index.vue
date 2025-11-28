@@ -6,6 +6,11 @@ const clinicData = {
   phone: '+420 734 554 553',
   email: 'sestra@ocnipetriny.cz'
 }
+
+// Define OG Image using custom template
+defineOgImageComponent('OgImageTemplate', {
+  subtitle: 'Moderni pece o vas zrak s lidskym pristupem'
+})
 </script>
 
 <template>
