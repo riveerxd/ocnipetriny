@@ -8,13 +8,15 @@ export default {
   ogImage: {
     defaults: {
       width: 1200,
-      height: 630
+      height: 630,
+      renderer: 'satori',
+      component: 'OgImageTemplate'
     },
     fonts: [
-      'Inter:400',
-      'Inter:500',
-      'Inter:600',
-      'Inter:700'
+      { name: 'Inter', weight: 400, subsets: ['latin-ext'] },
+      { name: 'Inter', weight: 500, subsets: ['latin-ext'] },
+      { name: 'Inter', weight: 600, subsets: ['latin-ext'] },
+      { name: 'Inter', weight: 700, subsets: ['latin-ext'] }
     ]
   },
 

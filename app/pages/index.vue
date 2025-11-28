@@ -8,8 +8,14 @@ const clinicData = {
 }
 
 // Define OG Image - use static for prerendering
-defineOgImageComponent('OgImageTemplate', {
-  subtitle: 'Moderni pece o vas zrak s lidskym pristupem'
+defineOgImage({
+  component: 'OgImageTemplate',
+  props: {
+    subtitle: 'Moderní péče o váš zrak s lidským přístupem'
+  },
+  // Explicitly disable title capture to prevent page content leaking
+  title: '',
+  description: ''
 })
 </script>
 

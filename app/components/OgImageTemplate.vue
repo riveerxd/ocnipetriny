@@ -18,17 +18,17 @@ defineProps<{
     <div style="position: relative; z-index: 10; display: flex; flex-direction: column; align-items: center; text-align: center; padding: 0 80px;">
       <!-- Main title -->
       <div style="font-size: 72px; font-weight: 700; color: #1e293b; line-height: 1.1; margin-bottom: 24px;">
-        Ocni <span style="color: #60AA06;">Petriny</span>
+        Oční <span style="color: #60AA06;">Petřiny</span>
       </div>
 
       <!-- Location -->
       <div style="font-size: 32px; font-weight: 500; color: #475569; margin-bottom: 20px;">
-        Ocni ordinace Praha 6
+        Oční ordinace Praha 6
       </div>
 
       <!-- Subtitle -->
       <div style="font-size: 24px; font-weight: 400; color: #64748b; max-width: 700px; line-height: 1.4;">
-        {{ subtitle || 'Moderni pece o vas zrak s lidskym pristupem' }}
+        {{ subtitle || 'Moderní péče o váš zrak s lidským přístupem' }}
       </div>
     </div>
 
