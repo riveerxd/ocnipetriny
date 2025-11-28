@@ -7,7 +7,7 @@ const clinicData = {
   email: 'sestra@ocnipetriny.cz'
 }
 
-// Define OG Image using custom template
+// Define OG Image - use static for prerendering
 defineOgImageComponent('OgImageTemplate', {
   subtitle: 'Moderni pece o vas zrak s lidskym pristupem'
 })
