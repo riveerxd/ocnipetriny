@@ -210,6 +210,14 @@ export default {
                 description: 'Odbornice s dlouholetými zkušenostmi v oftalmologii, zaměřená na komplexní péči o zrak a diagnostiku očních onemocnění'
               },
               {
+                '@type': 'Physician',
+                '@id': 'https://www.ocnipetriny.cz/#doctor-almarei',
+                name: 'MUDr. Samer Al Marei',
+                jobTitle: 'Oftalmolog',
+                medicalSpecialty: ['Ophthalmology'],
+                description: 'Odborník v oftalmologii'
+              },
+              {
                 '@type': 'Person',
                 '@id': 'https://www.ocnipetriny.cz/#nurse-vorlova',
                 name: 'Hana Vorlová',

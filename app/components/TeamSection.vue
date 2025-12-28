@@ -20,6 +20,12 @@ const team: TeamMember[] = [
     role: 'Zdravotní sestra',
     badge: 'Sestra',
     description: 'Profesionální péče a podpora pacientů'
+  },
+  {
+    name: 'MUDr. Samer Al Marei',
+    role: 'Oftalmolog',
+    badge: 'Lékař',
+    description: 'Odborník v oftalmologii'
   }
 ]
 </script>
@@ -46,7 +52,7 @@ const team: TeamMember[] = [
     </div>
 
     <!-- Team Grid -->
-    <div class="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+    <div class="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto [&>*:last-child:nth-child(odd)]:md:col-span-2 [&>*:last-child:nth-child(odd)]:md:max-w-[calc(50%-1rem)] [&>*:last-child:nth-child(odd)]:md:mx-auto">
       <div 
         v-for="member in team" 
         :key="member.name" 
