@@ -2,7 +2,23 @@
 export default {
   compatibilityDate: '2025-07-15',
   devtools: { enabled: true },
-  modules: ['@nuxtjs/tailwindcss'],
+  modules: ['@nuxtjs/tailwindcss', 'nuxt-og-image', '@nuxtjs/seo'],
+
+  // OG Image configuration
+  ogImage: {
+    defaults: {
+      width: 1200,
+      height: 630,
+      renderer: 'satori',
+      component: 'OgImageTemplate'
+    },
+    fonts: [
+      { name: 'Inter', weight: 400, subsets: ['latin-ext'] },
+      { name: 'Inter', weight: 500, subsets: ['latin-ext'] },
+      { name: 'Inter', weight: 600, subsets: ['latin-ext'] },
+      { name: 'Inter', weight: 700, subsets: ['latin-ext'] }
+    ]
+  },
 
   // SEO and Performance Optimizations
   app: {
@@ -421,6 +437,12 @@ export default {
   image: {
     formats: ['webp', 'avif', 'jpg'],
     quality: 80
+  },
+
+  // Site config for SEO modules
+  site: {
+    url: 'https://www.ocnipetriny.cz',
+    name: 'Oční Petřiny'
   },
 
   // Runtime config for environment variables
