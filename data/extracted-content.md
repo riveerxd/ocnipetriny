@@ -939,7 +939,7 @@ Zubní kaz začíná v povrchové části zubu. Později proniká přes zubní s
 								
 											
 													
-										+420 703 622 644
+										+420 734 554 553
 									
 								
 											

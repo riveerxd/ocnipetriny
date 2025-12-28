@@ -9,9 +9,9 @@ interface OpeningHours {
 const openingHours: OpeningHours[] = [
   { day: "Pondělí", hours: "8:00 – 11:30 | 12:30 – 17:00" },
   { day: "Úterý", hours: "8:00 – 11:30 | 12:30 – 17:00" },
-  { day: "Středa", hours: "7:30 – 11:30 | 12:30 – 14:00" },
-  { day: "Čtvrtek", hours: "7:30 – 11:30 | 12:30 – 14:00" },
-  { day: "Pátek", hours: "7:30 – 12:00" },
+  { day: "Středa", hours: "8:00 – 11:30 | 12:30 – 14:00" },
+  { day: "Čtvrtek", hours: "8:00 – 11:30 | 12:30 – 14:00" },
+  { day: "Pátek", hours: "8:00 – 12:00" },
   { day: "Sobota – Neděle", hours: "Zavřeno" },
 ];
 </script>

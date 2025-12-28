@@ -16,11 +16,11 @@ export default {
       meta: [
         {
           name: 'description',
-          content: 'Oční Petřiny - Oční ordinace Praha 6 s MUDr. Drahoslavou Petříkovou. Moderní péče o váš zrak s lidským přístupem. Oftalmologická vyšetření, diagnostika očních onemocnění, moderní technologie OCT, perimetr, tonometr. Komplexní zákroky, preventivní prohlídky. Stamicova 21, Praha 6. ☎ +420 734 554 553.'
+          content: 'Oční Petřiny - Oční ordinace Praha 6 s MUDr. Drahoslavou Petříkovou. Moderní péče o váš zrak s lidským přístupem. Oftalmologická vyšetření, diagnostika očních onemocnění, moderní technologie OCT, perimetr. Komplexní zákroky, preventivní prohlídky. Stamicova 21, Praha 6. ☎ +420 734 554 553.'
         },
         {
           name: 'keywords',
-          content: 'Oční Petřiny, oční ordinace Praha 6, MUDr. Drahoslava Petříková, oftalmologie Praha, oční lékař Praha 6, oční vyšetření, diagnostika očních onemocnění, OCT vyšetření, perimetr, tonometr, pachymetr, autokeratorefraktometr, glaukom, katarakta, kontaktní čočky, brýle, preventivní prohlídky, řidičský průkaz, zbrojní průkaz, péče o zrak, oční klinika Petřiny, Stamicova Praha 6, oftalmolog Praha, oční ambulance, vyšetření zraku, oční specialista, moderní technologie'
+          content: 'Oční Petřiny, oční ordinace Praha 6, MUDr. Drahoslava Petříková, oftalmologie Praha, oční lékař Praha 6, oční vyšetření, diagnostika očních onemocnění, OCT vyšetření, perimetr, pachymetr, autokeratorefraktometr, glaukom, katarakta, kontaktní čočky, brýle, preventivní prohlídky, řidičský průkaz, zbrojní průkaz, péče o zrak, oční klinika Petřiny, Stamicova Praha 6, oftalmolog Praha, oční ambulance, vyšetření zraku, oční specialista, moderní technologie'
         },
         {
           name: 'author',
@@ -56,7 +56,7 @@ export default {
         { property: 'og:type', content: 'website' },
         { property: 'og:site_name', content: 'Oční Petřiny' },
         { property: 'og:title', content: 'Oční Petřiny | MUDr. Drahoslava Petříková | Oftalmologie Praha 6' },
-        { property: 'og:description', content: 'Moderní oční ordinace v Praze 6 s profesionální péčí o váš zrak. Oftalmologická vyšetření, diagnostika očních onemocnění, moderní technologie OCT, perimetr, tonometr. Komplexní zákroky a preventivní prohlídky. Stamicova 21, Praha 6.' },
+        { property: 'og:description', content: 'Moderní oční ordinace v Praze 6 s profesionální péčí o váš zrak. Oftalmologická vyšetření, diagnostika očních onemocnění, moderní technologie OCT, perimetr. Komplexní zákroky a preventivní prohlídky. Stamicova 21, Praha 6.' },
         { property: 'og:url', content: 'https://www.ocnipetriny.cz/' },
         { property: 'og:image', content: 'https://www.ocnipetriny.cz/images/preview.png' },
         { property: 'og:image:width', content: '1200' },
@@ -66,7 +66,7 @@ export default {
         // Twitter Card
         { name: 'twitter:card', content: 'summary_large_image' },
         { name: 'twitter:title', content: 'Oční Petřiny | MUDr. Drahoslava Petříková | Oftalmologie Praha 6' },
-        { name: 'twitter:description', content: 'Moderní oční ordinace s profesionální péčí o váš zrak. OCT, perimetr, tonometr. Komplexní zákroky. Oftalmologie Praha 6. ☎ +420 734 554 553' },
+        { name: 'twitter:description', content: 'Moderní oční ordinace s profesionální péčí o váš zrak. OCT, perimetr. Komplexní zákroky. Oftalmologie Praha 6. ☎ +420 734 554 553' },
         { name: 'twitter:image', content: 'https://www.ocnipetriny.cz/images/preview.png' },
         { name: 'twitter:image:alt', content: 'Oční Petřiny - Moderní oční ordinace Praha 6' },
         // Local Business SEO
@@ -115,7 +115,7 @@ export default {
             url: 'https://www.ocnipetriny.cz',
             logo: 'https://www.ocnipetriny.cz/logo.png',
             image: 'https://www.ocnipetriny.cz/images/preview.png',
-            description: 'Moderní oční ordinace v Praze 6 Petřiny specializující se na komplexní oftalmologickou péči, diagnostiku očních onemocnění s moderními technologiemi OCT, perimetr, tonometr, pachymetr. Poskytujeme komplexní zákroky, preventivní prohlídky a péči o váš zrak s lidským přístupem.',
+            description: 'Moderní oční ordinace v Praze 6 Petřiny specializující se na komplexní oftalmologickou péči, diagnostiku očních onemocnění s moderními technologiemi OCT, perimetr, pachymetr. Poskytujeme komplexní zákroky, preventivní prohlídky a péči o váš zrak s lidským přístupem.',
             slogan: 'Moderní péče o váš zrak s lidským přístupem',
             telephone: '+420734554553',
             email: 'sestra@ocnipetriny.cz',
@@ -154,20 +154,32 @@ export default {
               },
               {
                 '@type': 'OpeningHoursSpecification',
-                dayOfWeek: ['Wednesday', 'Thursday'],
-                opens: '07:30',
+                dayOfWeek: 'Wednesday',
+                opens: '08:00',
                 closes: '11:30'
               },
               {
                 '@type': 'OpeningHoursSpecification',
-                dayOfWeek: ['Wednesday', 'Thursday'],
+                dayOfWeek: 'Wednesday',
+                opens: '12:30',
+                closes: '14:00'
+              },
+              {
+                '@type': 'OpeningHoursSpecification',
+                dayOfWeek: 'Thursday',
+                opens: '08:00',
+                closes: '11:30'
+              },
+              {
+                '@type': 'OpeningHoursSpecification',
+                dayOfWeek: 'Thursday',
                 opens: '12:30',
                 closes: '14:00'
               },
               {
                 '@type': 'OpeningHoursSpecification',
                 dayOfWeek: 'Friday',
-                opens: '07:30',
+                opens: '08:00',
                 closes: '12:00'
               }
             ],
@@ -239,14 +251,6 @@ export default {
                     '@type': 'MedicalProcedure',
                     name: 'Vyšetření perimetrem',
                     description: 'Vyšetření zorného pole pro diagnostiku glaukomu a neurologických onemocnění'
-                  }
-                },
-                {
-                  '@type': 'Offer',
-                  itemOffered: {
-                    '@type': 'MedicalProcedure',
-                    name: 'Měření nitroočního tlaku',
-                    description: 'Tonometrické vyšetření pro včasnou diagnostiku glaukomu'
                   }
                 },
                 {
@@ -371,7 +375,7 @@ export default {
                 name: 'Jaké moderní technologie používáte?',
                 acceptedAnswer: {
                   '@type': 'Answer',
-                  text: 'Disponujeme nejmodernějším vybavením včetně OCT (optická koherentní tomografie), perimetru pro vyšetření zorného pole, aplanačního tonometru pro měření nitroočního tlaku, pachymetru a autokeratorefraktometru pro komplexní diagnostiku.'
+                  text: 'Disponujeme nejmodernějším vybavením včetně OCT (optická koherentní tomografie), perimetru pro vyšetření zorného pole, pachymetru a autokeratorefraktometru pro komplexní diagnostiku.'
                 }
               },
               {

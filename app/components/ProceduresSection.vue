@@ -14,11 +14,6 @@ const procedures: Procedure[] = [
     icon: 'eye'
   },
   {
-    name: 'Zhotovení brýlí v naší oční optice',
-    description: 'Profesionální výroba brýlí přímo v naší ordinaci s možností okamžité úpravy a servisu',
-    icon: 'glasses'
-  },
-  {
     name: 'Vyšetření a diagnostika chorob očního segmentu',
     description: 'Diagnostika slzných cest, onemocnění rohovky, šedého zákalu, makulární degenerace, glaukomu, diabetu, hypertenze a cévních patologií',
     icon: 'search'
@@ -32,11 +27,6 @@ const procedures: Procedure[] = [
     name: 'Preventivní a vstupní prohlídky',
     description: 'Vyšetření na řidičský průkaz, zbrojní průkaz a další preventivní prohlídky dle požadavků',
     icon: 'shield'
-  },
-  {
-    name: 'Vyšetření na kontaktní čočky',
-    description: 'Odborné vyšetření, aplikace kontaktních čoček a pravidelné kontroly pro optimální komfort',
-    icon: 'contact'
   },
   {
     name: 'Nadstandardní diagnostická vyšetření',

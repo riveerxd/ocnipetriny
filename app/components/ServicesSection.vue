@@ -133,9 +133,6 @@ const categories: ServiceCategory[] = [
             Spolupracujeme se všemi pojišťovnami
           </h3>
         </div>
-        <p class="text-xl font-bold text-[#60AA06] mb-2">
-          Vše zdarma!!
-        </p>
         <p class="text-gray-700 font-medium max-w-2xl mx-auto">
           Standardní oftalmologická vyšetření jsou plně hrazena zdravotními pojišťovnami
         </p>
