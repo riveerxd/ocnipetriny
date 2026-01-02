@@ -16,7 +16,7 @@ const contactInfo = ref<ContactInfo[]>([
   {
     icon: '📍',
     label: 'Adresa',
-    value: 'Zárubova 498/31, 142 00 Praha 12'
+    value: 'Stamicova 21, 162 00 Praha 6'
   },
   {
     icon: '📞',

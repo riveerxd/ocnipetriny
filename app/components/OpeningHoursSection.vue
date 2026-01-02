@@ -99,12 +99,12 @@ const openingHours: OpeningHours[] = [
             </div>
             <div class="flex flex-col gap-2">
               <h3 class="text-3xl font-black text-gray-900">Kde nás najdete</h3>
-              <p class="text-gray-700 font-semibold text-sm">Stamicova 21, 142 00 Praha 12</p>
+              <p class="text-gray-700 font-semibold text-sm">Stamicova 21, 162 00 Praha 6</p>
             </div>
           </div>
         </div>
 
-        <div class="relative flex-1">
+        <div class="relative flex-1 min-h-[400px] md:min-h-0">
           <iframe
             width="100%"
             height="100%"
