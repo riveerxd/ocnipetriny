@@ -32,8 +32,8 @@ const categories: ServiceCategory[] = [
     title: 'Plastická operace očních víček',
     subtitle: 'Profesionální chirurgické zákroky pro mladistvý vzhled',
     services: [
-      { name: 'Horních víček', price: '15 000 Kč' },
-      { name: 'Dolních víček', price: '15 000 Kč' }
+      { name: 'Horních víček', price: '17 000 Kč' },
+      { name: 'Dolních víček', price: '17 000 Kč' }
     ]
   }
 ]
