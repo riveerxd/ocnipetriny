@@ -48,7 +48,7 @@
         <div class="text-center md:text-right text-gray-600 font-medium">
           <p>
             Made by 
-            <a href="#" class="text-[#60AA06] hover:text-[#6DBE07] font-bold transition-colors">
+            <a href="https://riveer.cz/" target="_blank" rel="noopener noreferrer" class="text-[#60AA06] hover:text-[#6DBE07] font-bold cursor-pointer hover:underline transition-colors">
               river
             </a>
           </p>
