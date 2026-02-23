@@ -27,7 +27,7 @@ defineOgImage({
       :phone="clinicData.phone"
       :email="clinicData.email"
     />
-    <OpeningHoursSection />
+    <!-- <OpeningHoursSection /> -->
     <ContactInfoSection />
     <TeamSection />
     <ProceduresSection />
